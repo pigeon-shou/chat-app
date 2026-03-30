@@ -131,14 +131,14 @@
   display: flex;
 }
 
-.form-text {
+.form-message {
   border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
 }
 
-.form-button {
+.form-submit {
   font-size: 16px;
   padding: 0 20px;
   color: white;
