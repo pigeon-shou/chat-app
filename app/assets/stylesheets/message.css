@@ -59,28 +59,27 @@
   background-color: #ffffff;
 }
 /* メインヘッダー */
-.main-header {
-  background-color: #ffffff;
+.chat-header {
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.groupe-name {
-  font-size: 24px;
+.header-title {
   color: #333;
+  font-size: 24px;
   margin-top: 36px;
 }
 
-.end-chat {
+.header-button {
   margin-top: 40px;
 }
 
-.end-chat a {
+.header-button a {
   text-decoration: none;
-  color: darkred;
   border: 1px solid darkred;
+  color: darkred;
   padding: 20px;
 }
 /* メインメッセージ */
@@ -91,30 +90,35 @@
   overflow: scroll;
 }
 
-.message-card {
-  margin-bottom: 40px;
+.message {
+  margin: 10px 0 0 0;
 }
 
-.message-topic {
+.upper-message {
   display: flex;
-  padding: 10px 0;
 }
 
-.message-name {
-  font-size: 16px;
+.message-user {
   color: #434a54;
+  font-size: 16px;
 }
 
 .message-date {
-  font-size: 12px;
   color: #999;
-  margin-left: 10px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.message-text {
-  font-size: 14px;
-  color: #434a54;
+.lower-message {
+  margin-top: 10px;
 }
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
 /* メイン終わり */
 /* フォーム */
 .form {
@@ -122,30 +126,29 @@
   height: 90px;
   padding: 20px 40px;
   display: flex;
-  align-items: center;
-  color: #dddddd;
-}
-.form-input {
-  background-color: white;
-  width: 100%;
-  display: flex;
 }
 
-.form-text {
+.form-input {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.form-message {
   border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
 }
 
-.form-button {
-  font-size: 16px;
-  padding: 0 20px;
-  color: white;
+.form-submit {
   background-color: #38aef0;
   border: none;
+  color: white;
+  font-size: 16px;
   height: 50px;
   margin-left: 15px;
+  padding: 0 20px;
 }
 
 .form-image {
